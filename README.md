@@ -1,2 +1,2 @@
 # Musician-Matcher
-This project uses unstructured text data to create a recommendation system based on artist descriptions.
+This project uses unstructured text data to create a recommendation system based on artist descriptions. The documents, available in the lastfmapi_biographies folder, are cleaned with SpaCy and vectorized with a TF-IDF transformer. Document similarity is computed with cosine similarity, which calculates the top ten most similar artists in the dataset. The code is available in the notebook MusicianMatcher.ipynb. 
